@@ -1,5 +1,5 @@
 // Create an empty array for the topic of choice
-var topic = ['Foo Fighters', 'Drake', 'John Mayer', 'Eminem', 'Fall Out Boy', 'My Chemical Romance', 'Taylor Swift', 'Kendrick Lamar', 'blink-182', 'Halsey', 'Bon Jovi', 'Bruce Springsteen', 'Chance the Rapper', 'Linkin Park', 'Kanye West', 'Childish Gambino', 'Maroon 5', 'Coldplay', 'Ed Sheeran', 'Frank Ocean', 'Lady Gaga'];
+var topic = ['Foo Fighters', 'Drake', 'John Mayer', 'Eminem', 'Fall Out Boy', 'My Chemical Romance', 'Taylor Swift', 'Kendrick Lamar', 'blink-182', 'Halsey', 'Bruce Springsteen', 'Chance the Rapper', 'Linkin Park', 'Kanye West', 'Childish Gambino', 'Maroon 5', 'Coldplay', 'Lady Gaga'];
 
 renderButtons(topic);
 
@@ -24,6 +24,7 @@ function renderButtons() {
     // Loop through the array of artists, then generate buttons for each artist in the array
     for (var i = 0; i < topic.length; i++) {
         var buttons = $('<button>'+ topic[i] + '</button>') 
+        buttons.addClass('btn btn-info');
         buttons.appendTo('#artist-buttons'); 
     };
 

@@ -1,0 +1,22 @@
+img {
+    max-height: 200px;
+}
+
+.item {
+    float: left;
+    margin: 5px;
+}
+
+input {
+    margin: 10px;
+}
+
+.btn-info {
+    margin: 1px;
+}
+
+.form-group {
+    background-color: #534ED1;
+    color: white;
+    padding: 10px;
+}
