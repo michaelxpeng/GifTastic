@@ -20,3 +20,21 @@ input {
     color: white;
     padding: 10px;
 }
+
+p {
+    color: white;
+    background-color: black;
+}
+
+.col-lg-9, .col-lg-3 {
+    margin-top: 20px;
+}
+
+.col-lg-3 {
+    text-align: center;
+}
+
+#artist-form {
+    position: relative;
+    right: -500px;
+}
